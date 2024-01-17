@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Fira+Sans:ital,wght@1,300&family=Lato&family=Open+Sans&family=Oswald&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Fira+Sans:ital,wght@1,300&family=Lato&family=Oswald&family=Varela+Round&display=swap');
+
+
+/* font-family: 'Bricolage Grotesque', sans-serif; */
+/* font-family: 'Bricolage Grotesque', sans-serif; */
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+nav ul li{
+    /* top se pehle phir sides se */
+    padding: 0px 12px;
+}
+
+.brand img{
+    width: 48px;
+    padding: 0px 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round','sans-serif';
+    display: flex;
+    margin: 23px auto;
+    /* width: 70%; */
+    border-radius: 12px;
+    padding: 14px;
+    background-image: url('bg.jpg');
+    /* z-index: -1; */
+}
+
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 123px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    /* text-align: center; */
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 34px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 80%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+
+}
+
+.songItem img{
+    width: 53px;
+    margin: 43px 19px;
+    border-radius: 34px;
+}
+.timespam{
+    margin: 0 23px;
+}
+.timespam i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    font-family: 'Varela Round','sans-serif';
+    left: 10vw;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.6s ease-in;
+}
